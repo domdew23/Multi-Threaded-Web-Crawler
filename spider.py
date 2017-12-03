@@ -3,8 +3,8 @@
 # Must share waiting list and crawled files among multiple spiders
 
 from urllib.request import urlopen
-from Web_Crawler.link_finder import LinkFinder
-from Web_Crawler.general import *
+from link_finder import LinkFinder
+from general import *
 from bs4 import BeautifulSoup
 
 

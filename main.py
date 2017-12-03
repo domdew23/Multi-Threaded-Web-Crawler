@@ -1,8 +1,8 @@
 import threading
 from queue import Queue
-from Web_Crawler.spider import Spider
-from Web_Crawler.domain import *
-from Web_Crawler.general import *
+from spider import Spider
+from domain import *
+from general import *
 
 
 # A thread allows to split up jobs
